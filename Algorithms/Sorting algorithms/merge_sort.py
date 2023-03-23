@@ -1,5 +1,6 @@
 """Algorithm merge sort"""
 
+
 def sort_merge(lst: list):
     len_list = len(lst)
     sorted_list: list = []
@@ -23,7 +24,4 @@ def sort_merge(lst: list):
         sorted_list.extend(left_list[index_left:])
         sorted_list.extend(right_list[index_right:])
 
-        # print(f'left: --> {left_list}  right: --> {right_list}')
-
-    # print(f'Debug: {lst} --> {sorted_list}')
     return sorted_list
