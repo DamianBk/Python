@@ -1,6 +1,5 @@
 """Algorithm bubble sort"""
 
-
 def bubble_sort(sequence: list):
     seq_len = len(sequence)
 
