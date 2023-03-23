@@ -1,4 +1,4 @@
-"""Algorytm szybkiego sortowania quick sort"""
+"""Algorithm quick sort"""
 
 
 def divide(lst: list, start: int, end: int):
