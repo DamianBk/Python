@@ -1,7 +1,4 @@
-"""Sortowanie przez scalanie"""
-from random import randint
-from time import time
-
+"""Algorithm merge sort"""
 
 def sort_merge(lst: list):
     len_list = len(lst)
@@ -30,22 +27,3 @@ def sort_merge(lst: list):
 
     # print(f'Debug: {lst} --> {sorted_list}')
     return sorted_list
-
-
-non_sorted: list = [randint(0, 10000) for x in range(10000)]
-
-
-# start = time()
-# sort_merge(non_sorted)
-# end = time()
-
-# print(f'Sorting duration for function sort_insert: {end - start}')
-
-start = time()
-sorted(non_sorted)
-end = time()
-
-print(f'Sorting duration for function sort_insert: {end - start}')
-
-
-
