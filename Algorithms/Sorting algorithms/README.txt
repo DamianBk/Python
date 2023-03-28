@@ -1,4 +1,4 @@
-sorting algorithms:
+simple sorting algorithms to use:
 buble sort
 insert sorting
 select sorting
